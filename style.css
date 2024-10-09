@@ -1,0 +1,80 @@
+body {
+  font-family: "open sans", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  display: block;
+}
+#main {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding-bottom: 60px;
+}
+.max-width-800 {
+  max-width: 800px;
+}
+.max-width-1200 {
+  max-width: 1200px;
+}
+.full-width {
+  max-width: 100%;
+}
+.page13 #main {
+  max-width: 1180px;
+}
+.container {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+.item {
+  padding: 16px;
+  font-size: 20px;
+}
+@media only screen and (max-width: 768px) {
+  .item {
+    padding: 8px;
+    font-size: 18px;
+  }
+}
+img {
+  width: 100%;
+  height: auto;
+}
+.item a:hover .entry-title {
+  color: #1e7ec8;
+}
+div#logo {
+  text-align: center;
+  margin: 32px 16px;
+}
+#logo img {
+  width: 300px;
+}
+.entry-title {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.entry-price {
+  color: #a20505;
+  font-weight: 700;
+}
+#menu > ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 4px 16px;
+  justify-content: center;
+}
+#menu > ul li a {
+  padding: 6px 8px;
+  margin: 2px;
+  background-color: #59c0df;
+  color: #333;
+}
+#menu > ul li a:hover,
+#menu > ul li a:visited {
+  background-color: #c2dde6;
+}
